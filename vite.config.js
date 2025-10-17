@@ -15,5 +15,10 @@ export default defineConfig({
         rewrite: p => p.replace(/^\/ayur/, ""),
       },
     },
+    
+
+  },
+  preview: {
+    allowedHosts: ['flavormuse-214n.onrender.com']
   },
 });
